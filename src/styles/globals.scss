@@ -692,9 +692,10 @@ a { color: var(--text); text-decoration: none; &:hover { color: var(--text-secon
   }
 
   &-chart {
-    height: 72px;
-    flex: 1;
+    height: 80px;
+    min-height: 80px;
     padding: 8px 0 0;
+    position: relative;
   }
 
   &-footer {
